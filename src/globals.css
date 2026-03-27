@@ -1,0 +1,334 @@
+/* ===============================
+   GOOGLE FONT (GLOBAL)
+=============================== */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* ===============================
+   TAILWIND DIRECTIVES (ONLY ONCE)
+=============================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   KEYFRAMES (ALL MERGED)
+=============================== */
+
+/* Progress Bar */
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 98%;
+  }
+}
+
+/* Marquee */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Fade In (upwards) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide Up */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Slide Down */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scale In */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Spin (from old code) */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ===============================
+   CUSTOM ANIMATION CLASSES
+=============================== */
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
+}
+
+.animate-progress {
+  animation: progress 1.5s ease-out forwards;
+}
+
+.animate-logo-marquee {
+  animation: marquee 45s linear infinite;
+  width: max-content;
+  display: flex;
+}
+
+.animate-text-marquee {
+  animation: marquee 60s linear infinite;
+  width: max-content;
+  display: flex;
+}
+
+/* Legacy marquee */
+.animate-marquee,
+.animate-marquee-slow,
+.animate-marquee-long {
+  animation: marquee 60s linear infinite;
+  width: max-content;
+  display: flex;
+}
+
+/* Pause on hover */
+.group:hover .animate-logo-marquee,
+.group:hover .animate-text-marquee,
+.group:hover .animate-marquee,
+.group:hover .animate-marquee-slow,
+.group:hover .animate-marquee-long {
+  animation-play-state: paused;
+}
+
+/* ===============================
+   SCROLLBAR (FROM OLD)
+=============================== */
+.modal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #F7921C;
+  border-radius: 3px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #e6831a;
+}
+
+/* ===============================
+   VISUAL HELPERS
+=============================== */
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.group:hover .group-hover\:rotate-y-360 {
+  transform: rotateY(360deg);
+}
+
+.hover\:rotate-y-360 {
+  transform-style: preserve-3d;
+}
+
+/* ===============================
+   GLOBAL BASE STYLES
+=============================== */
+@layer base {
+
+  html {
+    font-size: 15px;
+  }
+
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body {
+    font-family: "Work Sans", sans-serif;
+    @apply bg-background text-foreground leading-relaxed antialiased;
+  }
+
+  h1 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+
+  h4 {
+    @apply text-lg font-medium;
+  }
+
+  h5 {
+    @apply text-base font-medium;
+  }
+
+  h6 {
+    @apply text-sm font-medium;
+  }
+
+  p {
+    @apply text-[0.95rem] text-muted-foreground leading-relaxed;
+  }
+
+  a {
+    @apply text-primary font-medium underline-offset-4 hover:underline;
+  }
+
+  button {
+    font-family: "Work Sans", sans-serif;
+    @apply text-[0.9rem] font-medium;
+  }
+
+  input,
+  textarea,
+  select {
+    font-family: "Work Sans", sans-serif;
+    @apply text-[0.9rem] text-foreground;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-muted-foreground;
+  }
+
+  label {
+    @apply text-[0.85rem] font-medium;
+  }
+
+  small {
+    @apply text-xs text-muted-foreground;
+  }
+
+  ul {
+    @apply list-disc pl-6;
+  }
+
+  ol {
+    @apply list-decimal pl-6;
+  }
+
+  li {
+    @apply text-[0.95rem];
+  }
+}
+
+/* ===============================
+   CUSTOM TEXT UTILITIES
+=============================== */
+@layer utilities {
+  .text-title {
+    @apply text-base font-semibold;
+  }
+
+  .text-description {
+    @apply text-sm text-muted-foreground leading-relaxed;
+  }
+}
+
+/* ===============================
+   RESPONSIVE UTILITIES (FROM OLD)
+=============================== */
+@media (max-width: 768px) {
+  .responsive-padding {
+    padding: 35px 30px 25px;
+  }
+
+  .responsive-text-lg {
+    font-size: 26px;
+  }
+
+  .responsive-text-md {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mobile-padding {
+    padding: 30px 25px 20px;
+  }
+
+  .mobile-text-lg {
+    font-size: 24px;
+  }
+
+  .mobile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .small-mobile-padding {
+    padding: 25px 20px 18px;
+  }
+
+  .small-mobile-text-lg {
+    font-size: 22px;
+  }
+}

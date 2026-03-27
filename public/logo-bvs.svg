@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#F7921C" stroke="#fff" stroke-width="3"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="75" fill="#fff"/>
+  
+  <!-- Steering Wheel -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#F7921C" stroke-width="6"/>
+  <circle cx="100" cy="100" r="12" fill="#F7921C"/>
+  
+  <!-- Steering Wheel Spokes -->
+  <line x1="100" y1="50" x2="100" y2="88" stroke="#F7921C" stroke-width="5"/>
+  <line x1="100" y1="112" x2="100" y2="150" stroke="#F7921C" stroke-width="5"/>
+  <line x1="50" y1="100" x2="88" y2="100" stroke="#F7921C" stroke-width="5"/>
+  <line x1="112" y1="100" x2="150" y2="100" stroke="#F7921C" stroke-width="5"/>
+  
+  <!-- BVS Text -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F7921C" text-anchor="middle">BVS</text>
+</svg>
