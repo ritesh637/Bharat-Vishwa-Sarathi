@@ -1,6 +1,7 @@
 export type ImageType = {
   id: number;
   src: string;
+  alt?: string; 
 };
 
 // Certification Images (Cloudinary)
