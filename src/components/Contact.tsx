@@ -143,7 +143,7 @@ export default function Contact() {
           
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-bold bg-gradient-to-r from-[#F7921C] to-[#069247] bg-clip-text text-transparent mb-4 md:mb-6 inline-block relative">
             Get in Touch
-            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-[#F7921C] to-[#069247] rounded-full"></div>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-[#F7921C] to-[#069247] horizental-full"></div>
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 max-w-2xl sm:max-w-3xl mx-auto px-2 sm:px-4 leading-relaxed font-light">
             Ready to start your journey as a professional driver? Reach out for
@@ -153,7 +153,7 @@ export default function Contact() {
 
         {/* Info Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-7 mb-12 sm:mb-16 md:mb-20 lg:mb-24">
-          <div className="bg-white p-5 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+          <div className="bg-white p-5 sm:p-6 lg:p-8 horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#F7921C] to-[#069247]"></div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4 relative pl-3 sm:pl-4">Call Us</h3>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -161,7 +161,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="bg-white p-5 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+          <div className="bg-white p-5 sm:p-6 lg:p-8 horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#F7921C] to-[#069247]"></div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4 relative pl-3 sm:pl-4">Email Us</h3>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -169,7 +169,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="bg-white p-5 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+          <div className="bg-white p-5 sm:p-6 lg:p-8 horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#F7921C] to-[#069247]"></div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4 relative pl-3 sm:pl-4">Office Hours</h3>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -178,7 +178,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="bg-white p-5 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+          <div className="bg-white p-5 sm:p-6 lg:p-8 horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#F7921C] to-[#069247]"></div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4 relative pl-3 sm:pl-4">Visit Center</h3>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -191,7 +191,7 @@ export default function Contact() {
         {/* Main Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mb-8">
           {/* Map */}
-          <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] overflow-hidden group hover:-translate-y-0.5 transition-transform duration-300">
+          <div className="bg-white horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] overflow-hidden group hover:-translate-y-0.5 transition-transform duration-300">
             <div className="bg-gradient-to-r from-[#F7921C] to-[#069247] text-white p-5 sm:p-6 lg:p-7 relative overflow-hidden">
               <div className="absolute top-1/2 right-1/2 w-[200%] h-[200%] bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px] opacity-30"></div>
               <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 sm:mb-3 relative">Visit Our Center</h3>
@@ -209,23 +209,23 @@ export default function Contact() {
           </div>
 
           {/* Form */}
-          <div className="bg-white p-5 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)]">
+          <div className="bg-white p-5 sm:p-6 lg:p-8 horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)]">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-800 mb-3 sm:mb-4 relative pb-3 sm:pb-4">
               Quick Contact Form
-              <div className="absolute bottom-0 left-0 w-12 sm:w-14 lg:w-16 h-0.5 sm:h-1 bg-gradient-to-r from-[#F7921C] to-[#069247] rounded-full"></div>
+              <div className="absolute bottom-0 left-0 w-12 sm:w-14 lg:w-16 h-0.5 sm:h-1 bg-gradient-to-r from-[#F7921C] to-[#069247] horizental-full"></div>
             </h3>
             <p className="text-sm sm:text-base text-gray-600 mb-5 sm:mb-6 lg:mb-8 leading-relaxed">
               Get in touch with us for enquiries or support
             </p>
 
             {error && (
-              <div className="bg-gradient-to-br from-[#ff6b6b] to-[#ff4757] text-white p-3 sm:p-4 rounded-lg mb-4 sm:mb-5 text-center text-sm sm:text-base font-medium animate-slideDown">
+              <div className="bg-gradient-to-br from-[#ff6b6b] to-[#ff4757] text-white p-3 sm:p-4 horizental-lg mb-4 sm:mb-5 text-center text-sm sm:text-base font-medium animate-slideDown">
                 {error}
               </div>
             )}
 
             {submitStatus && (
-              <div className={`p-3 sm:p-4 rounded-lg mb-4 sm:mb-5 text-center text-sm sm:text-base font-medium animate-slideDown ${
+              <div className={`p-3 sm:p-4 horizental-lg mb-4 sm:mb-5 text-center text-sm sm:text-base font-medium animate-slideDown ${
                 submitStatus.type === "success"
                   ? "bg-gradient-to-br from-[#28a745] to-[#20c997] text-white"
                   : "bg-gradient-to-br from-[#ff6b6b] to-[#ff4757] text-white"
@@ -244,7 +244,7 @@ export default function Contact() {
                   onChange={handleChange}
                   disabled={isSubmitting}
                   required
-                  className="flex-1 px-4 py-3 sm:py-4 rounded-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
+                  className="flex-1 px-4 py-3 sm:py-4 horizental-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
                 />
                 <input
                   type="email"
@@ -254,7 +254,7 @@ export default function Contact() {
                   onChange={handleChange}
                   disabled={isSubmitting}
                   required
-                  className="flex-1 px-4 py-3 sm:py-4 rounded-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
+                  className="flex-1 px-4 py-3 sm:py-4 horizental-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
                 />
               </div>
 
@@ -267,7 +267,7 @@ export default function Contact() {
                   onChange={handleChange}
                   disabled={isSubmitting}
                   required
-                  className="flex-1 px-4 py-3 sm:py-4 rounded-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
+                  className="flex-1 px-4 py-3 sm:py-4 horizental-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
                 />
                 <select
                   name="program"
@@ -275,7 +275,7 @@ export default function Contact() {
                   onChange={handleChange}
                   disabled={isSubmitting}
                   required
-                  className="flex-1 px-4 py-3 sm:py-4 rounded-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
+                  className="flex-1 px-4 py-3 sm:py-4 horizental-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
                 >
                   <option value="">Select Program</option>
                   <option value="Basic Driver Training">Basic Driver Training</option>
@@ -292,17 +292,17 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 disabled={isSubmitting}
-                className="w-full px-4 py-3 sm:py-4 rounded-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 mb-4 sm:mb-5 resize-none disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
+                className="w-full px-4 py-3 sm:py-4 horizental-lg border border-gray-300 outline-none text-sm sm:text-base bg-gray-50 focus:border-[#F7921C] focus:ring-4 focus:ring-[#F7921C]/10 focus:bg-white transition-all duration-300 mb-4 sm:mb-5 resize-none disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-100"
               />
 
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-6 py-3 sm:py-4 rounded-lg font-semibold text-white text-sm sm:text-base bg-gradient-to-r from-[#F7921C] to-[#069247] hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 relative overflow-hidden disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-none group"
+                className="w-full px-6 py-3 sm:py-4 horizental-lg font-semibold text-white text-sm sm:text-base bg-gradient-to-r from-[#F7921C] to-[#069247] hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 relative overflow-hidden disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-none group"
               >
                 {isSubmitting ? (
                   <div className="flex items-center justify-center">
-                    <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2"></div>
+                    <div className="w-5 h-5 border-2 border-white/30 border-t-white horizental-full animate-spin mr-2"></div>
                     <span>Sending...</span>
                   </div>
                 ) : (

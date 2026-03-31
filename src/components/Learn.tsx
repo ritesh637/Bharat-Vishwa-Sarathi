@@ -212,13 +212,13 @@ const Learn = () => {
           {/* Header */}
           <div className="text-center mb-14">
             <div 
-              className="inline-flex items-center gap-3 px-7 py-3 rounded-full"
+              className="inline-flex items-center gap-3 px-7 py-3 horizental-full"
               style={{ 
                 background: `linear-gradient(to right, ${PRIMARY_GREEN}10, ${PRIMARY_ORANGE}10)` 
               }}
             >
               <span 
-                className="w-2.5 h-2.5 rounded-full" 
+                className="w-2.5 h-2.5 horizental-full" 
                 style={{ backgroundColor: PRIMARY_ORANGE }}
               />
               <span 
@@ -263,7 +263,7 @@ const Learn = () => {
                 className="group h-full"
               >
                 <div 
-                  className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-8 text-center transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full flex flex-col"
+                  className="relative overflow-hidden horizental-2xl border border-gray-200 bg-white p-8 text-center transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full flex flex-col"
                 >
                   {/* Slide Background */}
                   <div 
@@ -277,7 +277,7 @@ const Learn = () => {
                   <div className="relative z-10 flex flex-col h-full">
                     {/* Icon */}
                     <div 
-                      className="w-16 h-16 mx-auto mb-6 rounded-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
+                      className="w-16 h-16 mx-auto mb-6 horizental-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
                       style={{ 
                         border: `2px solid ${PRIMARY_GREEN}20`,
                         color: PRIMARY_GREEN
@@ -288,7 +288,7 @@ const Learn = () => {
 
                     {/* Duration Badge */}
                     <div 
-                      className="absolute top-4 right-4 bg-white px-3 py-1 rounded-full text-sm font-semibold transition-colors duration-300 group-hover:bg-gray-100"
+                      className="absolute top-4 right-4 bg-white px-3 py-1 horizental-full text-sm font-semibold transition-colors duration-300 group-hover:bg-gray-100"
                       style={{ color: PRIMARY_GREEN }}
                     >
                       {module.duration}
@@ -335,13 +335,13 @@ const Learn = () => {
           <div className="mb-16">
             <div className="text-center mb-12">
               <div 
-                className="inline-flex items-center gap-3 px-7 py-3 rounded-full mb-4"
+                className="inline-flex items-center gap-3 px-7 py-3 horizental-full mb-4"
                 style={{ 
                   background: `linear-gradient(to right, ${PRIMARY_GREEN}10, ${PRIMARY_ORANGE}10)` 
                 }}
               >
                 <span 
-                  className="w-2.5 h-2.5 rounded-full" 
+                  className="w-2.5 h-2.5 horizental-full" 
                   style={{ backgroundColor: PRIMARY_GREEN }}
                 />
                 <span 
@@ -355,7 +355,7 @@ const Learn = () => {
                   TRAINING JOURNEY
                 </span>
                 <span 
-                  className="w-2.5 h-2.5 rounded-full" 
+                  className="w-2.5 h-2.5 horizental-full" 
                   style={{ backgroundColor: PRIMARY_ORANGE }}
                 />
               </div>
@@ -383,7 +383,7 @@ const Learn = () => {
                   className="group h-full"
                 >
                   <div 
-                    className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full"
+                    className="relative overflow-hidden horizental-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full"
                   >
                     {/* Slide Background */}
                     <div 
@@ -397,7 +397,7 @@ const Learn = () => {
                       <div className="flex items-start gap-4 h-full">
                         <div className="flex-shrink-0">
                           <div 
-                            className="w-12 h-12 bg-white rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110"
+                            className="w-12 h-12 bg-white horizental-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110"
                             style={{ 
                               border: `2px solid ${PRIMARY_GREEN}20`,
                               color: PRIMARY_GREEN
@@ -409,7 +409,7 @@ const Learn = () => {
                         <div className="flex-1 flex flex-col h-full">
                           <div className="flex items-center gap-3 mb-2">
                             <div 
-                              className="w-8 h-8 text-white rounded-full flex items-center justify-center text-sm font-bold transition-transform duration-300 group-hover:scale-110"
+                              className="w-8 h-8 text-white horizental-full flex items-center justify-center text-sm font-bold transition-transform duration-300 group-hover:scale-110"
                               style={{ 
                                 background: `linear-gradient(to right, ${PRIMARY_GREEN}, ${PRIMARY_ORANGE})` 
                               }}
@@ -470,13 +470,13 @@ const Learn = () => {
           <div className="mb-16">
             <div className="text-center mb-12">
               <div 
-                className="inline-flex items-center gap-3 px-7 py-3 rounded-full mb-4"
+                className="inline-flex items-center gap-3 px-7 py-3 horizental-full mb-4"
                 style={{ 
                   background: `linear-gradient(to right, ${PRIMARY_GREEN}10, ${PRIMARY_ORANGE}10)` 
                 }}
               >
                 <span 
-                  className="w-2.5 h-2.5 rounded-full" 
+                  className="w-2.5 h-2.5 horizental-full" 
                   style={{ 
                     background: `linear-gradient(to right, ${PRIMARY_GREEN}, ${PRIMARY_ORANGE})` 
                   }}
@@ -513,7 +513,7 @@ const Learn = () => {
                   className="group h-full"
                 >
                   <div 
-                    className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] h-full flex items-center justify-center"
+                    className="relative overflow-hidden horizental-2xl border border-gray-200 bg-white p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] h-full flex items-center justify-center"
                   >
                     {/* Slide Background */}
                     <div 
@@ -525,7 +525,7 @@ const Learn = () => {
 
                     <div className="relative z-10">
                       <div 
-                        className="w-12 h-12 mx-auto mb-4 rounded-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
+                        className="w-12 h-12 mx-auto mb-4 horizental-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
                         style={{ 
                           border: `2px solid ${PRIMARY_GREEN}20`,
                           color: PRIMARY_GREEN
@@ -549,13 +549,13 @@ const Learn = () => {
           <div className="mt-20">
             <div className="text-center mb-12">
               <div 
-                className="inline-flex items-center gap-3 px-7 py-3 rounded-full mb-4"
+                className="inline-flex items-center gap-3 px-7 py-3 horizental-full mb-4"
                 style={{ 
                   background: `linear-gradient(to right, ${PRIMARY_GREEN}10, ${PRIMARY_ORANGE}10)` 
                 }}
               >
                 <span 
-                  className="w-2.5 h-2.5 rounded-full" 
+                  className="w-2.5 h-2.5 horizental-full" 
                   style={{ backgroundColor: PRIMARY_GREEN }}
                 />
                 <span 
@@ -584,7 +584,7 @@ const Learn = () => {
                   className="group h-full"
                 >
                   <div 
-                    className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full flex flex-col"
+                    className="relative overflow-hidden horizental-2xl border border-gray-200 bg-white p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)] h-full flex flex-col"
                   >
                     {/* Slide Background */}
                     <div 
@@ -596,7 +596,7 @@ const Learn = () => {
 
                     <div className="relative z-10 flex flex-col h-full">
                       <div 
-                        className="w-20 h-20 mx-auto mb-6 rounded-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
+                        className="w-20 h-20 mx-auto mb-6 horizental-full bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110"
                         style={{ 
                           border: `2px solid ${PRIMARY_GREEN}20`,
                           color: PRIMARY_GREEN
@@ -618,7 +618,7 @@ const Learn = () => {
 
                       <a
                         href={method.link}
-                        className={`inline-block w-full py-3 px-4 rounded-lg font-semibold text-base transition-all duration-300 ${
+                        className={`inline-block w-full py-3 px-4 horizental-lg font-semibold text-base transition-all duration-300 ${
                           method.buttonVariant === "outline"
                             ? "border-2 hover:bg-white hover:text-gray-900"
                             : "hover:bg-gray-100 hover:shadow-lg"
@@ -644,24 +644,24 @@ const Learn = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="mt-16 rounded-2xl p-8 text-center"
+            className="mt-16 horizental-2xl p-8 text-center"
             style={{ 
               background: `linear-gradient(to right, ${PRIMARY_GREEN}10, ${PRIMARY_ORANGE}10)` 
             }}
           >
             <div className="flex items-center justify-center gap-3 mb-4">
               <div 
-                className="w-2 h-2 rounded-full animate-pulse"
+                className="w-2 h-2 horizental-full animate-pulse"
                 style={{ backgroundColor: PRIMARY_GREEN }}
               ></div>
               <div 
-                className="w-2 h-2 rounded-full animate-pulse"
+                className="w-2 h-2 horizental-full animate-pulse"
                 style={{ 
                   background: `linear-gradient(to right, ${PRIMARY_GREEN}, ${PRIMARY_ORANGE})` 
                 }}
               ></div>
               <div 
-                className="w-2 h-2 rounded-full animate-pulse"
+                className="w-2 h-2 horizental-full animate-pulse"
                 style={{ backgroundColor: PRIMARY_ORANGE }}
               ></div>
             </div>

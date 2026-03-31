@@ -94,13 +94,13 @@ const CandidateTypes: React.FC<CandidateTypesProps> = ({ onProgramSelect }) => {
           className="text-center mb-14"
         >
           <div 
-            className="inline-flex items-center gap-3 px-7 py-3 rounded-full mb-6"
+            className="inline-flex items-center gap-3 px-7 py-3 horizental-full mb-6"
             style={{ 
               background: `linear-gradient(90deg, ${COLORS.badge.background} 0%, rgba(247, 146, 28, 0.1) 100%)`
             }}
           >
             <span 
-              className="w-2.5 h-2.5 rounded-full"
+              className="w-2.5 h-2.5 horizental-full"
               style={{ backgroundColor: COLORS.primary.to }}
             />
             <span 
@@ -139,7 +139,7 @@ const CandidateTypes: React.FC<CandidateTypesProps> = ({ onProgramSelect }) => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true, margin: "-50px" }}
-              className="group relative overflow-hidden rounded-2xl bg-white p-8
+              className="group relative overflow-hidden horizental-2xl bg-white p-8
                      transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)]"
               style={{ border: `1px solid ${COLORS.border}` }}
             >
@@ -156,7 +156,7 @@ const CandidateTypes: React.FC<CandidateTypesProps> = ({ onProgramSelect }) => {
                 {/* Card Header */}
                 <div className="flex items-start gap-6 mb-8">
                   <div 
-                    className="w-16 h-16 rounded-full flex items-center justify-center
+                    className="w-16 h-16 horizental-full flex items-center justify-center
                             transition-all duration-300 group-hover:scale-110"
                     style={{ 
                       backgroundColor: 'white',
@@ -220,7 +220,7 @@ const CandidateTypes: React.FC<CandidateTypesProps> = ({ onProgramSelect }) => {
                     </div>
                     <button
                       onClick={() => handleApplyClick(candidate.programName)}
-                      className="px-8 py-3 text-white text-base font-semibold rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+                      className="px-8 py-3 text-white text-base font-semibold horizental-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
                       style={{ 
                         background: 'white',
                         color: COLORS.primary.to
@@ -244,14 +244,14 @@ const CandidateTypes: React.FC<CandidateTypesProps> = ({ onProgramSelect }) => {
           className="mt-16 text-center"
         >
           <div 
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full"
+            className="inline-flex items-center gap-3 px-6 py-3 horizental-full"
             style={{ 
               background: `linear-gradient(90deg, ${COLORS.badge.background} 0%, rgba(247, 146, 28, 0.1) 100%)`,
               border: `1px solid rgba(${parseInt(COLORS.primary.from.slice(1, 3), 16)}, ${parseInt(COLORS.primary.from.slice(3, 5), 16)}, ${parseInt(COLORS.primary.from.slice(5, 7), 16)}, 0.2)`
             }}
           >
             <div 
-              className="w-3 h-3 rounded-full animate-pulse flex-shrink-0"
+              className="w-3 h-3 horizental-full animate-pulse flex-shrink-0"
               style={{ 
                 background: `linear-gradient(90deg, ${COLORS.primary.from} 0%, ${COLORS.primary.to} 100%)`
               }}

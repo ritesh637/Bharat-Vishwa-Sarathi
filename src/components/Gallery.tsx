@@ -279,7 +279,7 @@ const Gallery: React.FC = () => {
         {images.map((img) => (
           <div
             key={img.id}
-            className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg border border-[rgba(247,146,28,0.1)] cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-xl active:scale-95 sm:active:scale-100"
+            className="group relative overflow-hidden horizental-xl sm:horizental-2xl shadow-lg border border-[rgba(247,146,28,0.1)] cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-xl active:scale-95 sm:active:scale-100"
             onClick={() => handleImageClick(img.src, img.id, images)}
             role="button"
             tabIndex={0}
@@ -293,7 +293,7 @@ const Gallery: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none"></div>
             {loading === img.id && selectedImagesArray === images && (
               <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
-                <div className="w-8 h-8 border-4 border-[#F7921C] border-t-transparent rounded-full animate-spin"></div>
+                <div className="w-8 h-8 border-4 border-[#F7921C] border-t-transparent horizental-full animate-spin"></div>
               </div>
             )}
             <img
@@ -310,13 +310,13 @@ const Gallery: React.FC = () => {
             />
             {/* Hover Overlay */}
             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center z-20 pointer-events-none">
-              <span className="text-white text-xs sm:text-sm md:text-base font-semibold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gradient-to-r from-[#F7921C] to-[#069247] transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 whitespace-nowrap">
+              <span className="text-white text-xs sm:text-sm md:text-base font-semibold px-3 py-1.5 sm:px-4 sm:py-2 horizental-full bg-gradient-to-r from-[#F7921C] to-[#069247] transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 whitespace-nowrap">
                 View Image
               </span>
             </div>
             {/* Decorative corner accent */}
-            <div className="absolute top-0 left-0 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 border-t-2 border-l-2 border-[#F7921C]/50 rounded-tl-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 right-0 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 border-b-2 border-r-2 border-[#069247]/50 rounded-br-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute top-0 left-0 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 border-t-2 border-l-2 border-[#F7921C]/50 horizental-tl-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute bottom-0 right-0 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 border-b-2 border-r-2 border-[#069247]/50 horizental-br-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
         ))}
       </div>
@@ -370,7 +370,7 @@ const Gallery: React.FC = () => {
               goToPrevious();
             }}
             disabled={selectedIndex === 0}
-            className={`absolute left-4 sm:left-6 md:left-8 lg:left-10 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50 z-10 ${selectedIndex === 0 ? "opacity-30 cursor-not-allowed hover:scale-100" : "cursor-pointer"}`}
+            className={`absolute left-4 sm:left-6 md:left-8 lg:left-10 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 horizental-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50 z-10 ${selectedIndex === 0 ? "opacity-30 cursor-not-allowed hover:scale-100" : "cursor-pointer"}`}
             aria-label="Previous image"
           >
             ❮
@@ -380,12 +380,12 @@ const Gallery: React.FC = () => {
             <img
               src={selectedImage}
               alt="Preview"
-              className="max-w-full max-h-[90vh] w-auto h-auto rounded-xl sm:rounded-2xl shadow-2xl border-2 border-white/20 object-contain"
+              className="max-w-full max-h-[90vh] w-auto h-auto horizental-xl sm:horizental-2xl shadow-2xl border-2 border-white/20 object-contain"
               onClick={(e) => e.stopPropagation()}
             />
             <button
               onClick={handleCloseLightbox}
-              className="absolute -top-8 -right-2 sm:-top-10 sm:-right-10 md:-top-12 md:-right-12 w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-lg sm:text-xl md:text-2xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50"
+              className="absolute -top-8 -right-2 sm:-top-10 sm:-right-10 md:-top-12 md:-right-12 w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 horizental-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-lg sm:text-xl md:text-2xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50"
               aria-label="Close preview"
             >
               ✕
@@ -399,14 +399,14 @@ const Gallery: React.FC = () => {
               goToNext();
             }}
             disabled={selectedIndex === selectedImagesArray.length - 1}
-            className={`absolute right-4 sm:right-6 md:right-8 lg:right-10 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50 z-10 ${selectedIndex === selectedImagesArray.length - 1 ? "opacity-30 cursor-not-allowed hover:scale-100" : "cursor-pointer"}`}
+            className={`absolute right-4 sm:right-6 md:right-8 lg:right-10 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 horizental-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white text-2xl sm:text-3xl md:text-4xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50 z-10 ${selectedIndex === selectedImagesArray.length - 1 ? "opacity-30 cursor-not-allowed hover:scale-100" : "cursor-pointer"}`}
             aria-label="Next image"
           >
             ❯
           </button>
 
           {/* Image Counter */}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm backdrop-blur-sm">
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 sm:px-4 sm:py-2 horizental-full text-xs sm:text-sm backdrop-blur-sm">
             {selectedIndex + 1} / {selectedImagesArray.length}
           </div>
         </div>

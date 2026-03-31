@@ -190,13 +190,13 @@ const Enroll = () => {
             className="text-center mb-14"
           >
             <div 
-              className="inline-flex items-center gap-3 px-7 py-3 rounded-full mb-6"
+              className="inline-flex items-center gap-3 px-7 py-3 horizental-full mb-6"
               style={{ 
                 background: `linear-gradient(90deg, ${COLORS.badge.background} 0%, rgba(247, 146, 28, 0.1) 100%)`
               }}
             >
               <span 
-                className="w-2.5 h-2.5 rounded-full"
+                className="w-2.5 h-2.5 horizental-full"
                 style={{ backgroundColor: COLORS.primary.to }}
               />
               <span 
@@ -228,7 +228,7 @@ const Enroll = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="group relative overflow-hidden rounded-2xl bg-white p-8 text-center
+                className="group relative overflow-hidden horizental-2xl bg-white p-8 text-center
                      transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)]"
                 style={{ border: `1px solid ${COLORS.border}` }}
               >
@@ -244,7 +244,7 @@ const Enroll = () => {
                 <div className="relative z-10">
                   {/* Step Number */}
                   <div 
-                    className="absolute top-0 right-0 text-white w-12 h-12 flex items-center justify-center text-lg font-bold rounded-bl-xl"
+                    className="absolute top-0 right-0 text-white w-12 h-12 flex items-center justify-center text-lg font-bold horizental-bl-xl"
                     style={{ backgroundColor: COLORS.primary.to }}
                   >
                     {step.number}
@@ -252,7 +252,7 @@ const Enroll = () => {
 
                   {/* Icon */}
                   <div
-                    className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center
+                    className="w-16 h-16 mx-auto mb-6 horizental-full flex items-center justify-center
                             transition-all duration-300 group-hover:scale-110"
                     style={{ 
                       backgroundColor: 'white',
@@ -292,13 +292,13 @@ const Enroll = () => {
           >
             <div className="text-center mb-14">
               <div 
-                className="inline-flex items-center gap-3 px-7 py-3 rounded-full"
+                className="inline-flex items-center gap-3 px-7 py-3 horizental-full"
                 style={{ 
                   background: `linear-gradient(90deg, rgba(${parseInt(COLORS.primary.from.slice(1, 3), 16)}, ${parseInt(COLORS.primary.from.slice(3, 5), 16)}, ${parseInt(COLORS.primary.from.slice(5, 7), 16)}, 0.1) 0%, rgba(${parseInt(COLORS.primary.to.slice(1, 3), 16)}, ${parseInt(COLORS.primary.to.slice(3, 5), 16)}, ${parseInt(COLORS.primary.to.slice(5, 7), 16)}, 0.1) 100%)`
                 }}
               >
                 <span 
-                  className="w-2.5 h-2.5 rounded-full"
+                  className="w-2.5 h-2.5 horizental-full"
                   style={{ backgroundColor: COLORS.primary.to }}
                 />
                 <span 
@@ -322,7 +322,7 @@ const Enroll = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.05 }}
-                  className="group relative overflow-hidden rounded-2xl bg-white p-6
+                  className="group relative overflow-hidden horizental-2xl bg-white p-6
                      transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)]"
                   style={{ border: `1px solid ${COLORS.border}` }}
                 >
@@ -358,13 +358,13 @@ const Enroll = () => {
           <div className="mb-16">
             <div className="text-center mb-14">
               <div 
-                className="inline-flex items-center gap-3 px-7 py-3 rounded-full"
+                className="inline-flex items-center gap-3 px-7 py-3 horizental-full"
                 style={{ 
                   background: `linear-gradient(90deg, rgba(${parseInt(COLORS.primary.from.slice(1, 3), 16)}, ${parseInt(COLORS.primary.from.slice(3, 5), 16)}, ${parseInt(COLORS.primary.from.slice(5, 7), 16)}, 0.1) 0%, rgba(${parseInt(COLORS.primary.to.slice(1, 3), 16)}, ${parseInt(COLORS.primary.to.slice(3, 5), 16)}, ${parseInt(COLORS.primary.to.slice(5, 7), 16)}, 0.1) 100%)`
                 }}
               >
                 <span 
-                  className="w-2.5 h-2.5 rounded-full"
+                  className="w-2.5 h-2.5 horizental-full"
                   style={{ backgroundColor: COLORS.primary.from }}
                 />
                 <span 
@@ -388,7 +388,7 @@ const Enroll = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="group relative overflow-hidden rounded-2xl bg-white p-8 text-center
+                  className="group relative overflow-hidden horizental-2xl bg-white p-8 text-center
                      transition-all duration-300 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(0,0,0,0.12)]"
                   style={{ border: `1px solid ${COLORS.border}` }}
                 >
@@ -404,7 +404,7 @@ const Enroll = () => {
                   <div className="relative z-10">
                     {/* Icon */}
                     <div
-                      className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center
+                      className="w-16 h-16 mx-auto mb-6 horizental-full flex items-center justify-center
                               transition-all duration-300 group-hover:scale-110"
                       style={{ 
                         backgroundColor: 'white',
@@ -434,7 +434,7 @@ const Enroll = () => {
                     {/* Button */}
                     <a
                       href={method.link}
-                      className={`inline-block w-full py-3 px-4 rounded-lg font-semibold text-base transition-all duration-300 ${
+                      className={`inline-block w-full py-3 px-4 horizental-lg font-semibold text-base transition-all duration-300 ${
                         method.buttonVariant === "outline"
                           ? "border-2 hover:bg-white hover:text-[#F7921C]"
                           : "bg-white hover:bg-gray-50 hover:shadow-lg"

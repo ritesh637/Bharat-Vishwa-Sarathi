@@ -255,13 +255,13 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
         initial={{ opacity: 0, scale: 0.95, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut" }}
-        className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl max-h-[80vh] overflow-y-auto group"
+        className="relative w-full max-w-2xl bg-white horizental-2xl shadow-2xl max-h-[80vh] overflow-y-auto group"
         onClick={(e) => e.stopPropagation()}
         style={{ border: `1px solid ${COLORS.border}` }}
       >
         {/* Close Button */}
         <button
-          className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center cursor-pointer z-10 transition-all duration-300 hover:bg-[#F7921C] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed"
+          className="absolute top-4 right-4 w-10 h-10 horizental-full flex items-center justify-center cursor-pointer z-10 transition-all duration-300 hover:bg-[#F7921C] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed"
           style={{ 
             backgroundColor: 'white',
             border: `2px solid ${COLORS.border}`,
@@ -281,7 +281,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 200, damping: 15 }}
-              className="w-20 h-20 rounded-2xl flex items-center justify-center text-white mx-auto mb-6"
+              className="w-20 h-20 horizental-2xl flex items-center justify-center text-white mx-auto mb-6"
               style={{ 
                 background: `linear-gradient(135deg, ${COLORS.primary.from} 0%, ${COLORS.primary.to} 100%)`
               }}
@@ -294,7 +294,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
             <p className="text-gray-600 mb-3 text-base">
               Thank you for applying to Vishwas Bharti Driving Academy.
             </p>
-            <div className="mb-4 p-3 rounded-lg text-sm"
+            <div className="mb-4 p-3 horizental-lg text-sm"
               style={{ 
                 backgroundColor: 'rgba(4, 146, 72, 0.1)',
                 borderLeft: `4px solid ${COLORS.primary.from}`,
@@ -306,7 +306,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                 <span style={{ color: COLORS.text.dark }}>24 hours</span>.
               </p>
             </div>
-            <div className="flex items-center justify-center gap-2 p-3 rounded-xl text-sm text-gray-700"
+            <div className="flex items-center justify-center gap-2 p-3 horizental-xl text-sm text-gray-700"
               style={{ backgroundColor: 'rgba(4, 146, 72, 0.05)' }}
             >
               <PhoneCall size={14} className="text-[#F7921C]" />
@@ -323,7 +323,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
               style={{ borderColor: COLORS.border }}
             >
               <div 
-                className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-white transition-all duration-300 group-hover:scale-110"
+                className="w-16 h-16 mx-auto mb-6 horizental-full flex items-center justify-center text-white transition-all duration-300 group-hover:scale-110"
                 style={{ 
                   backgroundColor: 'white',
                   border: `2px solid rgba(${parseInt(COLORS.primary.from.slice(1, 3), 16)}, ${parseInt(COLORS.primary.from.slice(3, 5), 16)}, ${parseInt(COLORS.primary.from.slice(5, 7), 16)}, 0.2)`,
@@ -335,7 +335,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
 
               {selectedProgram && (
                 <div 
-                  className="inline-flex items-center gap-2 px-4 py-2 text-white rounded-lg text-sm font-semibold mb-3"
+                  className="inline-flex items-center gap-2 px-4 py-2 text-white horizental-lg text-sm font-semibold mb-3"
                   style={{ 
                     background: `linear-gradient(90deg, ${COLORS.primary.from} 0%, ${COLORS.primary.to} 100%)`
                   }}
@@ -363,7 +363,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mb-4 p-3 rounded-xl flex items-start gap-2 text-sm font-medium"
+                  className="mb-4 p-3 horizental-xl flex items-start gap-2 text-sm font-medium"
                   style={{ 
                     backgroundColor: 'rgba(239, 68, 68, 0.1)',
                     border: `2px solid rgba(239, 68, 68, 0.2)`
@@ -394,7 +394,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                     onChange={handleChange}
                     disabled={isSubmitting}
                     required
-                    className="w-full px-4 py-3 rounded-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
+                    className="w-full px-4 py-3 horizental-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
                     style={{ 
                       border: `2px solid ${COLORS.border}`,
                       borderColor: formData.name ? COLORS.primary.from : COLORS.border
@@ -422,7 +422,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                       onChange={handleChange}
                       disabled={isSubmitting}
                       required
-                      className="w-full px-4 py-3 rounded-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
+                      className="w-full px-4 py-3 horizental-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
                       style={{ 
                         border: `2px solid ${COLORS.border}`,
                         borderColor: formData.email ? COLORS.primary.from : COLORS.border
@@ -448,7 +448,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                       onChange={handleChange}
                       disabled={isSubmitting}
                       required
-                      className="w-full px-4 py-3 rounded-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
+                      className="w-full px-4 py-3 horizental-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm"
                       style={{ 
                         border: `2px solid ${COLORS.border}`,
                         borderColor: formData.phone ? COLORS.primary.from : COLORS.border
@@ -474,7 +474,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                     onChange={handleChange}
                     disabled={isSubmitting}
                     required
-                    className="w-full px-4 py-3 rounded-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm appearance-none pr-10"
+                    className="w-full px-4 py-3 horizental-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed text-sm appearance-none pr-10"
                     style={{ 
                       border: `2px solid ${COLORS.border}`,
                       borderColor: formData.program ? COLORS.primary.from : COLORS.border,
@@ -510,7 +510,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                     value={formData.message}
                     onChange={handleChange}
                     disabled={isSubmitting}
-                    className="w-full px-4 py-3 rounded-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed resize-none text-sm"
+                    className="w-full px-4 py-3 horizental-xl text-gray-900 bg-white transition-all duration-300 focus:outline-none disabled:bg-gray-50 disabled:text-gray-600 disabled:cursor-not-allowed resize-none text-sm"
                     style={{ 
                       border: `2px solid ${COLORS.border}`,
                       borderColor: formData.message ? COLORS.primary.from : COLORS.border
@@ -524,7 +524,7 @@ const ApplyModal: React.FC<ApplyModalProps> = ({
                   disabled={isSubmitting}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full px-4 py-4 text-white rounded-xl font-semibold text-base flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed mt-2 group/btn"
+                  className="w-full px-4 py-4 text-white horizental-xl font-semibold text-base flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 disabled:opacity-70 disabled:cursor-not-allowed mt-2 group/btn"
                   style={{ 
                     background: `linear-gradient(135deg, ${COLORS.primary.to} 0%, ${COLORS.primary.from} 100%)`
                   }}
