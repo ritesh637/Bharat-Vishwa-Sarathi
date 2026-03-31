@@ -111,7 +111,7 @@ const Testimonials = () => {
         >
           {/* Gradient Badge Header */}
           <div className="inline-flex items-center gap-3 px-7 py-3 bg-gradient-to-r from-[#049248]/10 to-[#F7921C]/10 rounded-full mb-6">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#F7921C]" />
+            <span className="w-2.5 h-2.5 horizontal-full bg-[#F7921C]" />
             <span className="text-sm font-semibold bg-gradient-to-r from-[#049248] to-[#F7921C] bg-clip-text text-transparent tracking-wide">
               OUR TESTIMONIALS
             </span>
@@ -149,7 +149,7 @@ const Testimonials = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.3 }}
-                    className="border-4 border-[#139245] rounded-2xl p-6 h-[280px] flex flex-col bg-white hover:shadow-xl transition-all duration-300 hover:border-[#e68314]"
+                    className="border-4 border-[#139245] horizental-2xl p-6 h-[280px] flex flex-col bg-white hover:shadow-xl transition-all duration-300 hover:border-[#e68314]"
                   >
                     <h3 className="text-xl font-bold text-gray-900">
                       {t.name}
@@ -174,13 +174,13 @@ const Testimonials = () => {
           <div className="flex justify-center mt-6">
             <div className="flex items-center gap-2">
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-[#F7921C] rounded-full animate-pulse mx-1"></div>
+                <div className="w-2 h-2 bg-[#F7921C] horizental-full animate-pulse mx-1"></div>
                 <div
-                  className="w-2 h-2 bg-[#F7921C] rounded-full animate-pulse mx-1"
+                  className="w-2 h-2 bg-[#F7921C] horizental-full animate-pulse mx-1"
                   style={{ animationDelay: "0.2s" }}
                 ></div>
                 <div
-                  className="w-2 h-2 bg-[#F7921C] rounded-full animate-pulse mx-1"
+                  className="w-2 h-2 bg-[#F7921C] horizental-full animate-pulse mx-1"
                   style={{ animationDelay: "0.4s" }}
                 ></div>
               </div>
